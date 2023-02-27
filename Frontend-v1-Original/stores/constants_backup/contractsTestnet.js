@@ -1,8 +1,8 @@
 import abis from "../abis";
 
 export const GOV_TOKEN_ADDRESS = '0x0DB76C03fFF8F9f8d6600ca1f9aC004FDB73d442'
-export const GOV_TOKEN_NAME = 'Expand Finance'
-export const GOV_TOKEN_SYMBOL = 'EXPD'
+export const GOV_TOKEN_NAME = 'Solid'
+export const GOV_TOKEN_SYMBOL = 'SOLID'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://prod.solidly.exchange/Solidly-O.svg'
 export const GOV_TOKEN_ABI = abis.tokenABI
