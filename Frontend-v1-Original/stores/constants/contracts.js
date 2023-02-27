@@ -1,7 +1,7 @@
 import abis from '../abis'
 // this is arb mainnet
 export const GOV_TOKEN_ADDRESS = '0xfF931A63D9f1c51c2Fb4cef8c5A97E3E79903FF6' // done
-export const GOV_TOKEN_NAME = 'Expand Finance'
+export const GOV_TOKEN_NAME = 'EXPD'
 export const GOV_TOKEN_SYMBOL = 'EXPD'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://prod.solidly.exchange/Solidly-O.svg'
