@@ -52,10 +52,10 @@ export default function ssVests() {
   return (
     <div className={classes.container}>
       <div className={classes.descriptionBox}>
-        <Typography variant='h1'>Vest</Typography>
-        <Typography variant='body2'>
-          Lock FLOW into veFLOW to earn and govern. Vote with veFLOW to earn
-          bribes and trading fees. veFLOW can be transferred, merged and split.
+        <Typography variant="h1">Vest</Typography>
+        <Typography variant="body2">
+          Lock EXPD into veEXPD to earn and govern. Vote with veEXPD to earn
+          bribes and trading fees. veEXPD can be transferred, merged and split.
           You can hold multiple positions.
         </Typography>
       </div>
