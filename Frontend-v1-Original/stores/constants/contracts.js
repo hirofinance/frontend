@@ -1,13 +1,13 @@
 import abis from '../abis'
 // this is arb mainnet
-export const GOV_TOKEN_ADDRESS = '0xfF931A63D9f1c51c2Fb4cef8c5A97E3E79903FF6' // done
-export const GOV_TOKEN_NAME = 'EXPD'
-export const GOV_TOKEN_SYMBOL = 'EXPD'
+export const GOV_TOKEN_ADDRESS = '0x944AF7785d57bcfC00e95388453B93DAD373216e' // done
+export const GOV_TOKEN_NAME = 'FLOW'
+export const GOV_TOKEN_SYMBOL = 'FLOW'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://prod.solidly.exchange/Solidly-O.svg'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
-export const VE_TOKEN_ADDRESS = '0x93447bA1917b2c2B195CF37B96fb66C693F33224' // dunks latest
+export const VE_TOKEN_ADDRESS = '0xfa01adbAA40f0EEeCEA76b7B18AC8bE064536787' // dunks latest
 export const VE_TOKEN_NAME = 'veNFT'
 export const VE_TOKEN_SYMBOL = 'veNFT'
 export const VE_TOKEN_DECIMALS = 18
@@ -25,22 +25,23 @@ export const ETH_ADDRESS = 'ETH'
 export const ETH_NAME = 'ETH'
 export const ETH_SYMBOL = 'ETH'
 export const ETH_DECIMALS = 18
-export const ETH_LOGO = 'https://assets.coingecko.com/coins/images/279/large/ethereum.png'
+export const ETH_LOGO =
+  'https://assets.coingecko.com/coins/images/279/large/ethereum.png'
 
 // BaseV1Factory checked here: https://ftmscan.com/address/0x3fAaB499b519fdC5819e3D7ed0C26111904cbc28#code
-export const FACTORY_ADDRESS = '0xEAb2af9002c4A0353837851Fc16Cb79681d0DFdB' // pretty sure on this one not 100% tho..
+export const FACTORY_ADDRESS = '0x9f7fdaB9317f1442808B90B819Ed0a4eF4f74994' // pretty sure on this one not 100% tho..
 export const FACTORY_ABI = abis.factoryABI
 
-export const ROUTER_ADDRESS = '0x6528e952f1C4b9ac966DBeB4D170700BE52e76AA' // done
+export const ROUTER_ADDRESS = '0x52A18b2386D6221Cf9DbcD4790456a23249e5279' // done
 export const ROUTER_ABI = abis.routerABI
 
-export const VE_DIST_ADDRESS = '0x66b7CfABedc671F44675b63cAfA00ecD20F7C4fc' // done
+export const VE_DIST_ADDRESS = '0xffCC209120a8fb388140689ea1235e4eD78620d5' // done
 export const VE_DIST_ABI = abis.veDistABI
 
-export const VOTER_ADDRESS = '0xFb898BA2E6C41121b25D0E404c86A3FC1668d90B' //
+export const VOTER_ADDRESS = '0x2862Bf1ADC96d485B6E85C062b170903DE9A2Bd5' //
 export const VOTER_ABI = abis.voterABI
 
-export const MINTER_ADDRESS = '0xC6e52Ef607F8298604a59F207F7A58E161f321A6'
+export const MINTER_ADDRESS = '0xA9ee0C9f59Cf387859c8E9e3b333F9e8c2ea51F4'
 export const MINTER_ABI = abis.minterABI
 
 export const ERC20_ABI = abis.erc20ABI
@@ -49,6 +50,6 @@ export const GAUGE_ABI = abis.gaugeABI
 export const BRIBE_ABI = abis.bribeABI
 export const TOKEN_ABI = abis.tokenABI
 
-export const MULTICALL_ADDRESS = '0x842eC2c7D803033Edf55E478F461FC547Bc54EB2' // what is this???
+export const MULTICALL_ADDRESS = '0xcA11bde05977b3631167028862bE2a173976CA11' // what is this???
 
 //LFG
