@@ -4969,6 +4969,9 @@ class Store {
         return null;
       }
 
+      console.log("payload", payload);
+      console.log("payload.content", payload.content);
+
       const { asset, amount, gauge } = payload.content;
 
       // ADD TRNASCTIONS TO TRANSACTION QUEUE DISPLAY
@@ -5054,6 +5057,11 @@ class Store {
       // SUBMIT BRIBE TRANSACTION
       const bribeContract = new web3.eth.Contract(
         CONTRACTS.BRIBE_ABI as AbiItem[],
+        gauge.gauge.wrapped_bribe_address
+      );
+
+      console.log(
+        "gauge.gauge.wrapped_bribe_address",
         gauge.gauge.wrapped_bribe_address
       );
 
