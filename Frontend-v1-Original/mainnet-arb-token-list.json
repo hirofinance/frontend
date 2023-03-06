@@ -24,16 +24,7 @@
     "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
   },
   {
-    "address": "0x794304d52280059C44d40ba0419541FE33B64d4f",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "",
-    "name": "HIRO",
-    "symbol": "HIRO",
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
-  },
-  {
-    "address": "0xfF931A63D9f1c51c2Fb4cef8c5A97E3E79903FF6",
+    "address": "0x7e76a94C4A75dD09Ee7892c6eBCcaeFEE3e3AC5a",
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "",

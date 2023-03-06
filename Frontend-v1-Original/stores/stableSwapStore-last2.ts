@@ -5401,14 +5401,17 @@ class Store {
         CONTRACTS.VOTER_ADDRESS
       );
 
-      // const sendGauges = [pair.gauge.bribeAddress];
-      const sendGauges = [pair.gauge.wrapped_bribe_address]; // modified
-
+      const sendGauges = [pair.gauge.bribeAddress];
       const sendTokens = [
         pair.gauge.bribesEarned.map((bribe) => {
           return bribe.token.address;
         }),
       ];
+
+      console.log("gaugeContract", gaugesContract)
+      console.log("sendGauges", sendGauges)
+      console.log("sendTokens", sendTokens)
+      console.log("tokenId", tokenID)
 
       this._callContractWait(
         web3,
@@ -5475,8 +5478,7 @@ class Store {
       });
 
       const sendGauges = bribePairs.map((pair) => {
-        return pair.gauge.wrapped_bribe_address //modified
-        // return pair.gauge.bribeAddress; 
+        return pair.gauge.bribeAddress;
       });
       const sendTokens = bribePairs.map((pair) => {
         return pair.gauge.bribesEarned.map((bribe) => {
