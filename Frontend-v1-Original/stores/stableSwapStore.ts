@@ -5294,6 +5294,8 @@ class Store {
         }
       }
 
+      console.log("[getRewardBalances] pairs", pairs);
+
       const filteredFees = [];
       for (let i = 0; i < pairs.length; i++) {
         let pair = Object.assign({}, pairs[i]);
@@ -5326,6 +5328,8 @@ class Store {
         })
       );
 
+      console.log("[getRewardBalances] rewardsEarned", rewardsEarned);
+
       const filteredRewards = [];
       for (let j = 0; j < rewardsEarned.length; j++) {
         let pair = Object.assign({}, rewardsEarned[j]);
@@ -5339,10 +5343,10 @@ class Store {
         }
       }
 
-      console.log(filteredBribes);
-      console.log(filteredFees);
-      console.log(filteredRewards);
-      console.log(veDistReward);
+      console.log("[getRewardBalances] filteredBribes", filteredBribes);
+      console.log("[getRewardBalances] filteredFees", filteredFees);
+      console.log("[getRewardBalances] filteredRewards", filteredRewards);
+      console.log("[getRewardBalances] veDistReward", veDistReward);
 
       const rewards = {
         bribes: filteredBribes,
@@ -5475,8 +5479,8 @@ class Store {
       });
 
       const sendGauges = bribePairs.map((pair) => {
-        return pair.gauge.wrapped_bribe_address //modified
-        // return pair.gauge.bribeAddress; 
+        return pair.gauge.wrapped_bribe_address; //modified
+        // return pair.gauge.bribeAddress;
       });
       const sendTokens = bribePairs.map((pair) => {
         return pair.gauge.bribesEarned.map((bribe) => {

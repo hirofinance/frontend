@@ -54,6 +54,12 @@ export default function ssVotes() {
     setVeToken(stores.stableSwapStore.getStore("veToken"));
     const as = stores.stableSwapStore.getStore("pairs");
 
+    // const p = await stores.stableSwapStore.getPair(
+    //   asset0.address,
+    //   asset1.address,
+    //   stable
+    // )
+
     const filteredAssets = as.filter((asset) => {
       return asset.gauge && asset.gauge.address;
     });
