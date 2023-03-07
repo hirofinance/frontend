@@ -31,5 +31,14 @@
     "name": "EXPD",
     "symbol": "EXPD",
     "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
+  },
+  {
+    "address": "0x794304d52280059C44d40ba0419541FE33B64d4f",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "",
+    "name": "HIRO",
+    "symbol": "HIRO",
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
   }
 ]
