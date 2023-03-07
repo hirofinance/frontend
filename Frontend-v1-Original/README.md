@@ -1,4 +1,4 @@
-# Velocimeter - ve(3,3)
+# Expand Exchange - ve(3,3)
 
 {
 BribeFactory: '0x560b401d9F28F80980451d8582DEe903dD5295c3',
@@ -17,7 +17,7 @@ Voter: '0x854086d39955d28317aE3856399312b8Edb1B473',
 VotingEscrow: '0xBf05364D6cf1586852c18c6b1CbEe218E3e09885'
 }
 
-## What is Velocimeter
+## What is Expand Exchange
 
 Inspired by Solidly and Velodrome
 
@@ -30,8 +30,8 @@ Inspired by Solidly and Velodrome
 
 ## Deployment
 
-- [Arbitrum](https://velocimeter.xyz/)
-- [Canto](https://canto.velocimeter.xyz/)
+- [Arbitrum](https://expand.exchange/)
+- [Canto](https://canto.expand.exchange/)
 
 ## Getting started
 

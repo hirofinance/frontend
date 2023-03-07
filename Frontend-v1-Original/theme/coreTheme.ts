@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material/styles";
 import { shadows } from "@mui/system";
 
 export const colors = {
-  blue: "#9D7ADB",
+  blue: "#9D7ADB", //"#9D7ADB"
   red: "#cd4337",
   orange: "#ffb347",
   lightBlack: "rgba(0, 0, 0, 0.87)",
@@ -288,7 +288,7 @@ const coreTheme = createTheme({
         thumb: {
           height: 24,
           width: 24,
-          backgroundColor: "#06D3D7",
+          backgroundColor: "#06D3D7", //"#06D3D7"
           border: "2px solid currentColor",
           "&:focus, &:hover, &$active": {
             boxShadow: "inherit",

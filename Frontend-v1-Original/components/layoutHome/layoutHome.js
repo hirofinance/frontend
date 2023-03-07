@@ -39,9 +39,9 @@ export default function Layout({
         />
         <meta
           name="description"
-          content="Velocimeter allows low cost, near 0 slippage trades on uncorrelated or tightly correlated assets built on Arbitrum."
+          content="Expand Exchange allows low cost, near 0 slippage trades on uncorrelated or tightly correlated assets built on Arbitrum."
         />
-        <meta name="og:title" content="Velocimeter" />
+        <meta name="og:title" content="Expand Exchange" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <div className={classes.content}>

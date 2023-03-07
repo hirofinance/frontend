@@ -40,7 +40,7 @@ function SiteLogo(props) {
       className={className}
       src="/images/expd_logo.png"
       alt="expandex logo"
-      height={45} //38
+      height={47} //38
       width={210} //256
     />
   );
@@ -365,7 +365,7 @@ function Header(props) {
           className={classes.logoContainer}
         >
           <SiteLogo className={classes.appLogo} />
-          {/* <Typography className={classes.logoText}>Velocimeter</Typography> */}
+          {/* <Typography className={classes.logoText}>Expand Exchange</Typography> */}
         </a>
 
         <Navigation changeTheme={props.changeTheme} />
