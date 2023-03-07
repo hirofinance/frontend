@@ -26,8 +26,8 @@
   left: 1rem;
   width: 512px;
   height: 512px;
-  background-color: #000000;
-  /* background-color: #d6d6d6; */
+  /* background-color: #000000; */
+  background-color: #d6d6d6;
   filter: blur(256px);
   opacity: 0.5;
   z-index: -1;

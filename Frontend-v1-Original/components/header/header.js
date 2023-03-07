@@ -38,10 +38,13 @@ function SiteLogo(props) {
   return (
     <Image
       className={className}
-      src="/images/expd_logo.png"
+      // src="/images/expd_logo.png"
+      src="/images/logo-icon.png"
       alt="expandex logo"
-      height={47} //38
-      width={210} //256
+      // height={47} //38
+      // width={210} //256
+      height={36}
+      width={36}
     />
   );
 }
@@ -365,7 +368,7 @@ function Header(props) {
           className={classes.logoContainer}
         >
           <SiteLogo className={classes.appLogo} />
-          {/* <Typography className={classes.logoText}>Expand Exchange</Typography> */}
+          <Typography className={classes.logoText}>Expand Exchange</Typography>
         </a>
 
         <Navigation changeTheme={props.changeTheme} />
