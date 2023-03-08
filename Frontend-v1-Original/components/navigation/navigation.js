@@ -34,6 +34,7 @@ function SiteLogo(props) {
         md: "4px",
       }}
     >
+      {/* if window size  */}
       <Image
         // className={className}
         src="/images/logo-icon.png"

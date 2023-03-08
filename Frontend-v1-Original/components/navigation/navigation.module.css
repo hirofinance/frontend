@@ -321,7 +321,7 @@ a.linkz {
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .navigationContainer {
     position: fixed;
     min-height: 60px;
@@ -330,6 +330,7 @@ a.linkz {
     left: 0;
     width: 100%;
     padding: 15px 0px !important;
+    /* margin-bottom: 3px !important; */
     border-radius: 0px !important;
     z-index: 10020;
     background: #040105;

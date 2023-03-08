@@ -342,7 +342,7 @@ html:not([data-scroll="0"]) .headerContainer {
   padding: 16px !important;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .accountButton {
     display: flex;
     align-items: center;

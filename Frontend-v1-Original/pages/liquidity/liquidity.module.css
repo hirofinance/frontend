@@ -88,12 +88,12 @@
 
 .buttonConnect {
   background: rgba(6,211,215,0.3) !important;
-  color: rgba(6,211,215,1) !important;
+  color: rgba(0,7,45,1) !important;
   border-radius: 60px !important;
   padding: 12px 24px 14px 24px !important;
   font-weight: 700 !important;
   text-transform: none !important;
-  border: 1px solid rgba(6,211,215,1) !important;
+  border: 1px solid rgba(0,7,45,1) !important;
   transform: scale(0.85);
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -103,10 +103,10 @@
 }
 
 .buttonConnect:hover {
-  background: rgba(6,211,215,1) !important;
+  background: rgba(0,7,45,1) !important;
   color: #040105 !important;
   text-transform: none !important;
-  border: 1px solid rgba(6,211,215,1) !important;
+  border: 1px solid rgba(0,7,45,1) !important;
   transform: scale(0.9);
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -119,7 +119,7 @@
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .ffContainer {
     padding-top: 140px;
   }
