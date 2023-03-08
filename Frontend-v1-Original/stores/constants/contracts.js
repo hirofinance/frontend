@@ -1,13 +1,13 @@
 import abis from '../abis'
 // this is arb mainnet
-export const GOV_TOKEN_ADDRESS = '0x7e76a94C4A75dD09Ee7892c6eBCcaeFEE3e3AC5a' // done
+export const GOV_TOKEN_ADDRESS = '0x2eE985d52677BD026a3f3fBD828cE96587de0A80' // done
 export const GOV_TOKEN_NAME = 'EXPD'
 export const GOV_TOKEN_SYMBOL = 'EXPD'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://prod.solidly.exchange/Solidly-O.svg'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
-export const VE_TOKEN_ADDRESS = '0xB5Cd7959Ff29Cf151cFAC183DA627018c836A301' // dunks latest
+export const VE_TOKEN_ADDRESS = '0xC14384d1b49f1312614333DDe8feEE1341Db76Db' // dunks latest
 export const VE_TOKEN_NAME = 'veNFT'
 export const VE_TOKEN_SYMBOL = 'veNFT'
 export const VE_TOKEN_DECIMALS = 18
@@ -28,19 +28,19 @@ export const ETH_DECIMALS = 18
 export const ETH_LOGO = 'https://assets.coingecko.com/coins/images/279/large/ethereum.png'
 
 // BaseV1Factory checked here: https://ftmscan.com/address/0x3fAaB499b519fdC5819e3D7ed0C26111904cbc28#code
-export const FACTORY_ADDRESS = '0x8f4B67987E422dEb5E7B014f148c7E8675cBE8E1' // pretty sure on this one not 100% tho..
+export const FACTORY_ADDRESS = '0xf6bD71a33c8Df0b1669E593dfD93bbfcb393c4b3' // pretty sure on this one not 100% tho..
 export const FACTORY_ABI = abis.factoryABI
 
-export const ROUTER_ADDRESS = '0xD408d6D2C7B8e8248dEf6f28aFD9744705c5AAb6' // done
+export const ROUTER_ADDRESS = '0xC7Eafd56c3845834A3e96942e404f7Cbb9A9e8d8' // done
 export const ROUTER_ABI = abis.routerABI
 
-export const VE_DIST_ADDRESS = '0x3b1D58A5682F0683D038e7A3a12f6Cf23f15FB9F' // done
+export const VE_DIST_ADDRESS = '0xA50c7Da8de8244F99e6f9a01cd80aDc21EbCAC83' // done
 export const VE_DIST_ABI = abis.veDistABI
 
-export const VOTER_ADDRESS = '0xF313d7AF25BC10b959A6eB7412938fd531eaD291' //
+export const VOTER_ADDRESS = '0xD29A6E140226ff6AcDD94D32483b03Be20AAFC8b' //
 export const VOTER_ABI = abis.voterABI
 
-export const MINTER_ADDRESS = '0x905E1c8cf512454a25f2D8f181E3C31d1eD0Fa2e'
+export const MINTER_ADDRESS = '0xb33d56f7021051abbBF044f545d8a8eCA96a391B'
 export const MINTER_ABI = abis.minterABI
 
 export const ERC20_ABI = abis.erc20ABI

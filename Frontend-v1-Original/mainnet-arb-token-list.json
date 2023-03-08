@@ -24,21 +24,12 @@
     "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
   },
   {
-    "address": "0x7e76a94C4A75dD09Ee7892c6eBCcaeFEE3e3AC5a",
+    "address": "0x2eE985d52677BD026a3f3fBD828cE96587de0A80",
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "",
     "name": "EXPD",
     "symbol": "EXPD",
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
-  },
-  {
-    "address": "0x794304d52280059C44d40ba0419541FE33B64d4f",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "",
-    "name": "HIRO",
-    "symbol": "HIRO",
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
+    "logoURI": "https://raw.githubusercontent.com/hirofinance/tokens/b52fc1d5e49bb5868531a16b8401246f4754d564/logo-icon.png"
   }
 ]
