@@ -10,6 +10,24 @@
   
 }
 
+.logoContainer {
+  cursor: pointer;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  /* background-color: #040105; */
+  border-radius: 40px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  /* padding-left: 3px; */
+}
+
+.logoText {
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+}
 
 
 a.linkz {
@@ -448,6 +466,8 @@ a.linkz {
     padding: 0 !important;
   }
 }
+
+
 
 @media screen and (max-width: 500px) {
   .navigationOptionNotSelected {

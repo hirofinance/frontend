@@ -595,7 +595,8 @@ export default function EnhancedTable({
                         onChange={(event, value) => {
                           onSliderChange(event, value, row);
                         }}
-                        min={-100}
+                        // min={-100}
+                        min={0}
                         max={100}
                         marks
                       />

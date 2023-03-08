@@ -8,6 +8,7 @@ import {
   ToggleButton,
   ToggleButtonGroup,
   Box,
+  Hidden,
 } from "@mui/material";
 import { withTheme, withStyles } from "@mui/styles";
 
@@ -19,32 +20,38 @@ import classes from "./navigation.module.css";
 
 function SiteLogo(props) {
   const { color, className } = props;
+
   return (
-    <Box
-      width={"100%"}
-      height={"100%"}
-      marginLeft={{
-        base: "12px",
-        xs: "20px",
-        md: "24px",
-      }}
-      marginTop={{
-        base: "0px",
-        xs: "4px",
-        md: "4px",
-      }}
-    >
-      {/* if window size  */}
-      <Image
-        // className={className}
-        src="/images/logo-icon.png"
-        // layout="fill"
-        height={36}
-        width={36}
-        alt="Expand Exchange Logo"
-        // objectPosition="center"
-        // objectFit="fill"
-      />
+    <Box width={"100%"} height={"100%"}>
+      <Hidden smDown>
+        <Box className={classes.logoContainer}>
+          <Image
+            // className={className}
+            src="/images/logo-icon.png"
+            // layout="fill"
+            height={32}
+            width={32}
+            alt="Expand Exchange Logo"
+            // objectPosition="center"
+            // objectFit="fill"
+          />
+          <Typography className={classes.logoText}>Expand Exchange</Typography>
+        </Box>
+      </Hidden>
+      <Hidden smUp>
+        <Box paddingX={1.5}>
+          <Image
+            // className={className}
+            src="/images/logo-icon.png"
+            // layout="fill"
+            height={28}
+            width={28}
+            alt="Expand Exchange Logo"
+            // objectPosition="center"
+            // objectFit="fill"
+          />
+        </Box>
+      </Hidden>
     </Box>
   );
 }
