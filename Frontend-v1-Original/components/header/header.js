@@ -494,7 +494,8 @@ function Header(props) {
         )}
         <TransactionQueue setQueueLength={setQueueLength} />
       </div>
-      {account && account.address && chainInvalid ? (
+      {chainInvalid ? (
+        // account && account.address && 
         <div className={classes.chainInvalidError}>
           <div className={classes.ErrorContent}>
             <WrongNetworkIcon className={classes.networkIcon} />
