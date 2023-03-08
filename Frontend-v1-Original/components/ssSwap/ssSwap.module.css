@@ -563,6 +563,8 @@
   background: #272826 !important;
   color: rgb(141,186,250) !important;
   font-weight: 700 !important;
+  /* max-height: fit-content; */
+  max-height: 50px;
 }
 
 .buttonOverride:hover {
