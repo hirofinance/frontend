@@ -79,7 +79,7 @@
 .activeIcon {
   height: 2px;
   width: 100%;
-  background: linear-gradient(-45deg, #23a6d5, #234ce7);
+  background: linear-gradient(-45deg, #a3c9ee, #80ade6);
   background-size: 400% 400%;
 	animation: gradient 35s ease infinite;
   display: inline-block;
@@ -226,7 +226,7 @@
   width: 100%;
   border-radius: 9px 9px 0 0;
   background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  color: rgb(141,186,250) !important;
 }
 
 .toggleButtons:hover {
@@ -240,7 +240,7 @@
   transition: none !important;
   opacity: 1;
   background: none !important;
-  color: rgb(6, 211, 215) !important;
+  color: rgb(141,186,250) !important;
 }
 
 /* .buttonActive {
@@ -269,7 +269,7 @@
 
 .buttonOverride {
   background: #272826 !important;
-  color: rgb(6, 211, 215) !important;
+  color: rgb(141,186,250) !important;
   font-weight: 700 !important;
 }
 
@@ -450,7 +450,7 @@
 .depositInfoHeading {
   width: 100%;
   font-weight: 700 !important;
-  color: #06D3D7 !important;
+  color:  #8DBAEA !important;
   padding-bottom: 15px !important;
   border-bottom: 1px solid rgba(126, 153, 176, 0.2);
   font-size: 14px !important;
@@ -524,7 +524,7 @@
 }
 
 .backIcon {
-  color: #06D3D7 !important;
+  color:  #8DBAEA !important;
 }
 
 .titleText {
@@ -596,13 +596,13 @@
 
 .toggleOption:hover {
   background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  color: rgb(141,186,250) !important;
 }
 
 .toggleOption.active {
-  border: 1px solid #06D3D7;
+  border: 1px solid  #8DBAEA;
   background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  color: rgb(141,186,250) !important;
 }
 
 .toggleOptionText {

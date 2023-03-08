@@ -208,7 +208,7 @@ function EnhancedTableHead(props) {
               direction={orderBy === headCell.id ? order : "asc"}
               onClick={createSortHandler(headCell.id)}
             >
-              <Typography variant='h5' className={classes.headerText}>
+              <Typography variant="h5" className={classes.headerText}>
                 {headCell.label}
               </Typography>
               {orderBy === headCell.id ? (
@@ -386,7 +386,7 @@ const useStyles = makeStyles((theme) => ({
   },
   buttonOverride: {
     width: "100%",
-    color: "rgb(6, 211, 215)",
+    color: "rgb(141,186,250)",
     background: "#272826",
     fontWeight: "700",
     "&:hover": {
@@ -407,7 +407,7 @@ const useStyles = makeStyles((theme) => ({
   filterButton: {
     background: "#272826",
     border: "1px solid rgba(126,153,176,0.3)",
-    color: "#06D3D7",
+    color: " #8DBAEA",
     width: "100%",
     height: "94.5%",
     borderRadius: "10px",
@@ -441,7 +441,7 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: "1px solid rgba(126,153,176,0.2)",
   },
   infoIcon: {
-    color: "#06D3D7",
+    color: " #8DBAEA",
     fontSize: "16px",
     marginLeft: "10px",
   },
@@ -564,10 +564,10 @@ const EnhancedTableToolbar = (props) => {
       <Grid container spacing={2}>
         <Grid item lg={2} md={2} sm={12} xs={12}>
           <Button
-            variant='contained'
-            color='secondary'
+            variant="contained"
+            color="secondary"
             startIcon={<AddCircleOutline />}
-            size='large'
+            size="large"
             className={classes.buttonOverride}
             onClick={onCreate}
           >
@@ -579,14 +579,14 @@ const EnhancedTableToolbar = (props) => {
         <Grid item lg={9} md={9} sm={10} xs={10}>
           <TextField
             className={classes.searchContainer}
-            variant='outlined'
+            variant="outlined"
             fullWidth
-            placeholder='ETH, MIM, 0x...'
+            placeholder="ETH, MIM, 0x..."
             value={search}
             onChange={onSearchChanged}
             InputProps={{
               startAdornment: (
-                <InputAdornment position='start'>
+                <InputAdornment position="start">
                   <Search />
                 </InputAdornment>
               ),
@@ -594,11 +594,11 @@ const EnhancedTableToolbar = (props) => {
           />
         </Grid>
         <Grid item lg={1} md={true} sm={2} xs={2}>
-          <Tooltip placement='top' title='Filter list'>
+          <Tooltip placement="top" title="Filter list">
             <IconButton
               onClick={handleClick}
               className={classes.filterButton}
-              aria-label='filter list'
+              aria-label="filter list"
             >
               <FilterList />
             </IconButton>
@@ -611,24 +611,24 @@ const EnhancedTableToolbar = (props) => {
         open={open}
         anchorEl={anchorEl}
         transition
-        placement='bottom-end'
+        placement="bottom-end"
       >
         {({ TransitionProps }) => (
           <Fade {...TransitionProps} timeout={350}>
             <div className={classes.filterContainer}>
-              <Typography className={classes.filterListTitle} variant='h5'>
+              <Typography className={classes.filterListTitle} variant="h5">
                 List Filters
               </Typography>
 
               <Grid container spacing={0}>
                 <Grid item lg={9} className={classes.labelColumn}>
-                  <Typography className={classes.filterLabel} variant='body1'>
+                  <Typography className={classes.filterLabel} variant="body1">
                     My Deposits
                   </Typography>
                 </Grid>
                 <Grid item lg={3} className={classes.alignContentRight}>
                   <Switch
-                    color='primary'
+                    color="primary"
                     checked={toggleActive}
                     name={"toggleActive"}
                     onChange={onToggle}
@@ -638,13 +638,13 @@ const EnhancedTableToolbar = (props) => {
 
               <Grid container spacing={0}>
                 <Grid item lg={9} className={classes.labelColumn}>
-                  <Typography className={classes.filterLabel} variant='body1'>
+                  <Typography className={classes.filterLabel} variant="body1">
                     Show Active Gauges
                   </Typography>
                 </Grid>
                 <Grid item lg={3} className={classes.alignContentRight}>
                   <Switch
-                    color='primary'
+                    color="primary"
                     checked={toggleActiveGauge}
                     name={"toggleActiveGauge"}
                     onChange={onToggle}
@@ -654,13 +654,13 @@ const EnhancedTableToolbar = (props) => {
 
               <Grid container spacing={0}>
                 <Grid item lg={9} className={classes.labelColumn}>
-                  <Typography className={classes.filterLabel} variant='body1'>
+                  <Typography className={classes.filterLabel} variant="body1">
                     Show Stable Pools
                   </Typography>
                 </Grid>
                 <Grid item lg={3} className={classes.alignContentRight}>
                   <Switch
-                    color='primary'
+                    color="primary"
                     checked={toggleStable}
                     name={"toggleStable"}
                     onChange={onToggle}
@@ -670,13 +670,13 @@ const EnhancedTableToolbar = (props) => {
 
               <Grid container spacing={0}>
                 <Grid item lg={9} className={classes.labelColumn}>
-                  <Typography className={classes.filterLabel} variant='body1'>
+                  <Typography className={classes.filterLabel} variant="body1">
                     Show Volatile Pools
                   </Typography>
                 </Grid>
                 <Grid item lg={3} className={classes.alignContentRight}>
                   <Switch
-                    color='primary'
+                    color="primary"
                     checked={toggleVariable}
                     name={"toggleVariable"}
                     onChange={onToggle}
@@ -722,37 +722,37 @@ export default function EnhancedTable({ pairs }) {
     return (
       <div className={classes.root}>
         <Skeleton
-          variant='rect'
+          variant="rect"
           width={"100%"}
           height={40}
           className={classes.skelly1}
         />
         <Skeleton
-          variant='rect'
+          variant="rect"
           width={"100%"}
           height={70}
           className={classes.skelly}
         />
         <Skeleton
-          variant='rect'
+          variant="rect"
           width={"100%"}
           height={70}
           className={classes.skelly}
         />
         <Skeleton
-          variant='rect'
+          variant="rect"
           width={"100%"}
           height={70}
           className={classes.skelly}
         />
         <Skeleton
-          variant='rect'
+          variant="rect"
           width={"100%"}
           height={70}
           className={classes.skelly}
         />
         <Skeleton
-          variant='rect'
+          variant="rect"
           width={"100%"}
           height={70}
           className={classes.skelly}
@@ -843,9 +843,9 @@ export default function EnhancedTable({ pairs }) {
         <TableContainer>
           <Table
             className={classes.table}
-            aria-labelledby='tableTitle'
+            aria-labelledby="tableTitle"
             size={"medium"}
-            aria-label='enhanced table'
+            aria-label="enhanced table"
           >
             <EnhancedTableHead
               classes={classes}
@@ -874,9 +874,9 @@ export default function EnhancedTable({ pairs }) {
                                   ? row.token0.logoURI
                                   : ``
                               }
-                              width='37'
-                              height='37'
-                              alt=''
+                              width="37"
+                              height="37"
+                              alt=""
                               onError={(e) => {
                                 e.target.onerror = null;
                                 e.target.src = "/tokens/unknown-logo.png";
@@ -889,9 +889,9 @@ export default function EnhancedTable({ pairs }) {
                                   ? row.token1.logoURI
                                   : ``
                               }
-                              width='37'
-                              height='37'
-                              alt=''
+                              width="37"
+                              height="37"
+                              alt=""
                               onError={(e) => {
                                 e.target.onerror = null;
                                 e.target.src = "/tokens/unknown-logo.png";
@@ -900,17 +900,17 @@ export default function EnhancedTable({ pairs }) {
                           </div>
                           <div>
                             <Typography
-                              variant='h2'
+                              variant="h2"
                               className={classes.textSpaced}
                               noWrap
                             >
                               {row?.symbol}
                             </Typography>
                             <Typography
-                              variant='h2'
+                              variant="h2"
                               className={classes.textSpaced}
                               noWrap
-                              color='textSecondary'
+                              color="textSecondary"
                             >
                               {row?.stable ? "Stable Pool" : "Volatile Pool"}
                             </Typography>
@@ -919,20 +919,20 @@ export default function EnhancedTable({ pairs }) {
                       </TableCell>
                       <TableCell
                         className={(classes.cell, classes.hiddenMobile)}
-                        align='right'
+                        align="right"
                       >
                         {row && row.token0 && row.token0.balance && (
                           <div className={classes.inlineEnd}>
                             <Typography
-                              variant='h2'
+                              variant="h2"
                               className={classes.textSpaced}
                             >
                               {formatCurrency(row.token0.balance)}
                             </Typography>
                             <Typography
-                              variant='h5'
+                              variant="h5"
                               className={`${classes.textSpaced} ${classes.symbol}`}
-                              color='textSecondary'
+                              color="textSecondary"
                             >
                               {row.token0.symbol}
                             </Typography>
@@ -941,7 +941,7 @@ export default function EnhancedTable({ pairs }) {
                         {!(row && row.token0 && row.token0.balance) && (
                           <div className={classes.inlineEnd}>
                             <Skeleton
-                              variant='rect'
+                              variant="rect"
                               width={120}
                               height={16}
                               style={{ marginTop: "1px", marginBottom: "1px" }}
@@ -951,15 +951,15 @@ export default function EnhancedTable({ pairs }) {
                         {row && row.token1 && row.token1.balance && (
                           <div className={classes.inlineEnd}>
                             <Typography
-                              variant='h2'
+                              variant="h2"
                               className={classes.textSpaced}
                             >
                               {formatCurrency(row.token1.balance)}
                             </Typography>
                             <Typography
-                              variant='h5'
+                              variant="h5"
                               className={`${classes.textSpaced} ${classes.symbol}`}
-                              color='textSecondary'
+                              color="textSecondary"
                             >
                               {row.token1.symbol}
                             </Typography>
@@ -968,7 +968,7 @@ export default function EnhancedTable({ pairs }) {
                         {!(row && row.token1 && row.token1.balance) && (
                           <div className={classes.inlineEnd}>
                             <Skeleton
-                              variant='rect'
+                              variant="rect"
                               width={120}
                               height={16}
                               style={{ marginTop: "1px", marginBottom: "1px" }}
@@ -978,13 +978,13 @@ export default function EnhancedTable({ pairs }) {
                       </TableCell>
                       <TableCell
                         className={(classes.cell, classes.hiddenMobile)}
-                        align='right'
+                        align="right"
                       >
                         {row && row.balance && row.totalSupply && (
                           <>
                             <div className={classes.inlineEnd}>
                               <Typography
-                                variant='h2'
+                                variant="h2"
                                 className={classes.textSpaced}
                               >
                                 {formatCurrency(
@@ -994,16 +994,16 @@ export default function EnhancedTable({ pairs }) {
                                 )}
                               </Typography>
                               <Typography
-                                variant='h5'
+                                variant="h5"
                                 className={`${classes.textSpaced} ${classes.symbol}`}
-                                color='textSecondary'
+                                color="textSecondary"
                               >
                                 {row.token0.symbol}
                               </Typography>
                             </div>
                             <div className={classes.inlineEnd}>
                               <Typography
-                                variant='h5'
+                                variant="h5"
                                 className={classes.textSpaced}
                               >
                                 {formatCurrency(
@@ -1013,9 +1013,9 @@ export default function EnhancedTable({ pairs }) {
                                 )}
                               </Typography>
                               <Typography
-                                variant='h5'
+                                variant="h5"
                                 className={`${classes.textSpaced} ${classes.symbol}`}
-                                color='textSecondary'
+                                color="textSecondary"
                               >
                                 {row.token1.symbol}
                               </Typography>
@@ -1025,7 +1025,7 @@ export default function EnhancedTable({ pairs }) {
                         {!(row && row.balance && row.totalSupply) && (
                           <div className={classes.inlineEnd}>
                             <Skeleton
-                              variant='rect'
+                              variant="rect"
                               width={120}
                               height={16}
                               style={{ marginTop: "1px", marginBottom: "1px" }}
@@ -1036,7 +1036,7 @@ export default function EnhancedTable({ pairs }) {
                       {row && row.gauge && row.gauge.address && (
                         <TableCell
                           className={(classes.cell, classes.hiddenMobile)}
-                          align='right'
+                          align="right"
                         >
                           {row &&
                             row.gauge &&
@@ -1045,7 +1045,7 @@ export default function EnhancedTable({ pairs }) {
                               <>
                                 <div className={classes.inlineEnd}>
                                   <Typography
-                                    variant='h2'
+                                    variant="h2"
                                     className={classes.textSpaced}
                                   >
                                     {formatCurrency(
@@ -1055,16 +1055,16 @@ export default function EnhancedTable({ pairs }) {
                                     )}
                                   </Typography>
                                   <Typography
-                                    variant='h5'
+                                    variant="h5"
                                     className={`${classes.textSpaced} ${classes.symbol}`}
-                                    color='textSecondary'
+                                    color="textSecondary"
                                   >
                                     {row.token0.symbol}
                                   </Typography>
                                 </div>
                                 <div className={classes.inlineEnd}>
                                   <Typography
-                                    variant='h5'
+                                    variant="h5"
                                     className={classes.textSpaced}
                                   >
                                     {formatCurrency(
@@ -1074,9 +1074,9 @@ export default function EnhancedTable({ pairs }) {
                                     )}
                                   </Typography>
                                   <Typography
-                                    variant='h5'
+                                    variant="h5"
                                     className={`${classes.textSpaced} ${classes.symbol}`}
-                                    color='textSecondary'
+                                    color="textSecondary"
                                   >
                                     {row.token1.symbol}
                                   </Typography>
@@ -1091,7 +1091,7 @@ export default function EnhancedTable({ pairs }) {
                           ) && (
                             <div className={classes.inlineEnd}>
                               <Skeleton
-                                variant='rect'
+                                variant="rect"
                                 width={120}
                                 height={16}
                                 style={{
@@ -1106,10 +1106,10 @@ export default function EnhancedTable({ pairs }) {
                       {!(row && row.gauge && row.gauge.address) && (
                         <TableCell
                           className={(classes.cell, classes.hiddenMobile)}
-                          align='right'
+                          align="right"
                         >
                           <Typography
-                            variant='h2'
+                            variant="h2"
                             className={classes.textSpaced}
                           >
                             Gauge not available
@@ -1118,26 +1118,26 @@ export default function EnhancedTable({ pairs }) {
                       )}
                       <TableCell
                         className={(classes.cell, classes.hiddenSmallMobile)}
-                        align='right'
+                        align="right"
                       >
                         {row && row.reserve0 && row.token0 && (
                           <div className={classes.inlineEnd}>
                             <Typography
-                              variant='h2'
+                              variant="h2"
                               className={classes.labelAdd}
                             >
                               Total Pool Amount:
                             </Typography>
                             <Typography
-                              variant='h2'
+                              variant="h2"
                               className={classes.textSpaced}
                             >
                               {formatCurrency(row.reserve0)}
                             </Typography>
                             <Typography
-                              variant='h5'
+                              variant="h5"
                               className={`${classes.textSpaced} ${classes.symbol}`}
-                              color='textSecondary'
+                              color="textSecondary"
                             >
                               {row.token0.symbol}
                             </Typography>
@@ -1146,7 +1146,7 @@ export default function EnhancedTable({ pairs }) {
                         {!(row && row.reserve0 && row.token0) && (
                           <div className={classes.inlineEnd}>
                             <Skeleton
-                              variant='rect'
+                              variant="rect"
                               width={120}
                               height={16}
                               style={{ marginTop: "1px", marginBottom: "1px" }}
@@ -1156,15 +1156,15 @@ export default function EnhancedTable({ pairs }) {
                         {row && row.reserve1 && row.token1 && (
                           <div className={classes.inlineEnd}>
                             <Typography
-                              variant='h2'
+                              variant="h2"
                               className={classes.textSpaced}
                             >
                               {formatCurrency(row.reserve1)}
                             </Typography>
                             <Typography
-                              variant='h5'
+                              variant="h5"
                               className={`${classes.textSpaced} ${classes.symbol}`}
-                              color='textSecondary'
+                              color="textSecondary"
                             >
                               {row.token1.symbol}
                             </Typography>
@@ -1173,7 +1173,7 @@ export default function EnhancedTable({ pairs }) {
                         {!(row && row.reserve1 && row.token1) && (
                           <div className={classes.inlineEnd}>
                             <Skeleton
-                              variant='rect'
+                              variant="rect"
                               width={120}
                               height={16}
                               style={{ marginTop: "1px", marginBottom: "1px" }}
@@ -1184,7 +1184,7 @@ export default function EnhancedTable({ pairs }) {
                       {row && row.gauge && row.gauge.address && (
                         <TableCell
                           className={(classes.cell, classes.hiddenMobile)}
-                          align='right'
+                          align="right"
                         >
                           {row &&
                             row.gauge &&
@@ -1192,15 +1192,15 @@ export default function EnhancedTable({ pairs }) {
                             row.token0 && (
                               <div className={classes.inlineEnd}>
                                 <Typography
-                                  variant='h2'
+                                  variant="h2"
                                   className={classes.textSpaced}
                                 >
                                   {formatCurrency(row.gauge.reserve0)}
                                 </Typography>
                                 <Typography
-                                  variant='h5'
+                                  variant="h5"
                                   className={`${classes.textSpaced} ${classes.symbol}`}
-                                  color='textSecondary'
+                                  color="textSecondary"
                                 >
                                   {row.token0.symbol}
                                 </Typography>
@@ -1214,7 +1214,7 @@ export default function EnhancedTable({ pairs }) {
                           ) && (
                             <div className={classes.inlineEnd}>
                               <Skeleton
-                                variant='rect'
+                                variant="rect"
                                 width={120}
                                 height={16}
                                 style={{
@@ -1230,15 +1230,15 @@ export default function EnhancedTable({ pairs }) {
                             row.token1 && (
                               <div className={classes.inlineEnd}>
                                 <Typography
-                                  variant='h2'
+                                  variant="h2"
                                   className={classes.textSpaced}
                                 >
                                   {formatCurrency(row.gauge.reserve1)}
                                 </Typography>
                                 <Typography
-                                  variant='h5'
+                                  variant="h5"
                                   className={`${classes.textSpaced} ${classes.symbol}`}
-                                  color='textSecondary'
+                                  color="textSecondary"
                                 >
                                   {row.token1.symbol}
                                 </Typography>
@@ -1252,7 +1252,7 @@ export default function EnhancedTable({ pairs }) {
                           ) && (
                             <div className={classes.inlineEnd}>
                               <Skeleton
-                                variant='rect'
+                                variant="rect"
                                 width={120}
                                 height={16}
                                 style={{
@@ -1267,10 +1267,10 @@ export default function EnhancedTable({ pairs }) {
                       {!(row && row.gauge && row.gauge.address) && (
                         <TableCell
                           className={(classes.cell, classes.hiddenMobile)}
-                          align='right'
+                          align="right"
                         >
                           <Typography
-                            variant='h2'
+                            variant="h2"
                             className={classes.textSpaced}
                           >
                             Gauge not available
@@ -1278,11 +1278,11 @@ export default function EnhancedTable({ pairs }) {
                         </TableCell>
                       )}
                       {row && (row.apr !== undefined || row.apr !== null) && (
-                        <TableCell className={classes.cell} align='right'>
+                        <TableCell className={classes.cell} align="right">
                           <Grid container spacing={0}>
                             <Grid item lg={10}>
                               <Typography
-                                variant='h2'
+                                variant="h2"
                                 className={classes.textSpaced}
                               >
                                 {row.apr}%
@@ -1302,7 +1302,7 @@ export default function EnhancedTable({ pairs }) {
                       ) && (
                         <div className={classes.inlineEnd}>
                           <Skeleton
-                            variant='rect'
+                            variant="rect"
                             width={120}
                             height={16}
                             style={{
@@ -1312,10 +1312,10 @@ export default function EnhancedTable({ pairs }) {
                           />
                         </div>
                       )}
-                      <TableCell className={classes.cell} align='right'>
+                      <TableCell className={classes.cell} align="right">
                         <Button
-                          variant='outlined'
-                          color='primary'
+                          variant="outlined"
+                          color="primary"
                           onClick={() => {
                             onView(row);
                           }}
@@ -1336,7 +1336,7 @@ export default function EnhancedTable({ pairs }) {
         </TableContainer>
         <TablePagination
           rowsPerPageOptions={[5, 10, 25]}
-          component='div'
+          component="div"
           count={filteredPairs.length}
           rowsPerPage={rowsPerPage}
           page={page}

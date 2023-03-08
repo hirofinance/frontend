@@ -343,7 +343,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "30px",
   },
   buttonOverride: {
-    color: "rgb(6, 211, 215)",
+    color: "rgb(141,186,250)",
     background: "#272826",
     fontWeight: "700",
     "&:hover": {
@@ -364,7 +364,7 @@ const useStyles = makeStyles((theme) => ({
   filterButton: {
     background: "#272826",
     border: "1px solid rgba(126,153,176,0.3)",
-    color: "#06D3D7",
+    color: " #8DBAEA",
     marginRight: "30px",
   },
   actionButtonText: {
@@ -396,7 +396,7 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: "1px solid rgba(126,153,176,0.2)",
   },
   infoIcon: {
-    color: "#06D3D7",
+    color: " #8DBAEA",
     fontSize: "16px",
     marginLeft: "10px",
   },

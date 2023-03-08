@@ -107,7 +107,7 @@
 
 .buttonOverride {
   background: #272826 !important;
-  color: rgb(6, 211, 215) !important;
+  color: rgb(141,186,250) !important;
   font-weight: 700 !important;
   width: 100%;
   min-width: 200px !important;
@@ -119,7 +119,7 @@
 
 .buttonOverrideFixed {
   background: #272826 !important;
-  color: rgb(6, 211, 215) !important;
+  color: rgb(141,186,250) !important;
   font-weight: 700 !important;
   min-width: 200px !important;
   max-height: 48px;

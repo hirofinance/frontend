@@ -45,7 +45,7 @@
 }
 
 .overviewIcon {
-  color: #06D3D7;
+  color:  #8DBAEA;
   font-size: 26px !important;
 }
 
@@ -75,7 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(6,211,215,0.04) !important;
+  background: rgba(141,186,250,0.04) !important;
 }
 
 @media screen and (max-width: 600px) {

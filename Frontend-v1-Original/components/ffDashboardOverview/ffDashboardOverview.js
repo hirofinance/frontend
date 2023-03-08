@@ -30,7 +30,7 @@ function BalanceIcon(props) {
           width="16"
           height="10"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeLinecap="square"
           strokeMiterlimit="10"
           strokeWidth="3"
@@ -40,7 +40,7 @@ function BalanceIcon(props) {
         <path
           d="M20,23V17a4.012,4.012,0,0,1,4-4h0a4.012,4.012,0,0,1,4,4v6"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeLinecap="square"
           strokeMiterlimit="10"
           strokeWidth="3"
@@ -50,7 +50,7 @@ function BalanceIcon(props) {
         <path
           d="M42,27A18,18,0,0,1,6,27V7L24,3,42,7Z"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeLinecap="square"
           strokeMiterlimit="10"
           strokeWidth="3"
@@ -68,7 +68,7 @@ function VestedBalanceIcon(props) {
       <g strokeWidth="2" transform="translate(0, 0)">
         <polyline
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeLinecap="square"
           strokeMiterlimit="10"
@@ -79,7 +79,7 @@ function VestedBalanceIcon(props) {
           data-cap="butt"
           data-color="color-2"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M19,20v4c0,1.657,2.686,3,6,3 s6-1.343,6-3v-4"
@@ -90,7 +90,7 @@ function VestedBalanceIcon(props) {
           data-cap="butt"
           data-color="color-2"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M19,24v4c0,1.657,2.686,3,6,3 s6-1.343,6-3v-4"
@@ -100,7 +100,7 @@ function VestedBalanceIcon(props) {
         <ellipse
           data-color="color-2"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeLinecap="square"
           strokeMiterlimit="10"
@@ -112,7 +112,7 @@ function VestedBalanceIcon(props) {
         ></ellipse>{" "}
         <path
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeLinecap="square"
           strokeMiterlimit="10"
@@ -132,7 +132,7 @@ function IbBalanceIcon(props) {
         <path
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M1,5v4c0,1.657,2.686,3,6,3 s6-1.343,6-3V5"
@@ -142,7 +142,7 @@ function IbBalanceIcon(props) {
         <path
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M1,9v4c0,1.657,2.686,3,6,3 s6-1.343,6-3V9"
@@ -152,7 +152,7 @@ function IbBalanceIcon(props) {
         <line
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           x1="13"
@@ -165,7 +165,7 @@ function IbBalanceIcon(props) {
         <path
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M1,13v4c0,1.657,2.686,3,6,3 c1.093,0,2.117-0.147,3-0.402"
@@ -175,7 +175,7 @@ function IbBalanceIcon(props) {
         <path
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M1,17v4c0,1.657,2.686,3,6,3 c1.093,0,2.118-0.147,3-0.402"
@@ -184,7 +184,7 @@ function IbBalanceIcon(props) {
         ></path>{" "}
         <ellipse
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeLinecap="square"
           strokeMiterlimit="10"
@@ -197,7 +197,7 @@ function IbBalanceIcon(props) {
         <path
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M19,9v4c0,1.657,2.686,3,6,3 s6-1.343,6-3V9"
@@ -207,7 +207,7 @@ function IbBalanceIcon(props) {
         <path
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M22,19.594 C22.883,19.85,23.906,20,25,20c3.314,0,6-1.343,6-3v-4"
@@ -217,7 +217,7 @@ function IbBalanceIcon(props) {
         <line
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           x1="19"
@@ -230,7 +230,7 @@ function IbBalanceIcon(props) {
         <path
           data-cap="butt"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M22,23.596 C22.883,23.851,23.907,24,25,24c3.314,0,6-1.343,6-3v-4"
@@ -239,7 +239,7 @@ function IbBalanceIcon(props) {
         ></path>{" "}
         <ellipse
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeLinecap="square"
           strokeMiterlimit="10"
@@ -253,7 +253,7 @@ function IbBalanceIcon(props) {
           data-cap="butt"
           data-color="color-2"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M10,19v4c0,1.657,2.686,3,6,3 s6-1.343,6-3v-4"
@@ -264,7 +264,7 @@ function IbBalanceIcon(props) {
           data-cap="butt"
           data-color="color-2"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeMiterlimit="10"
           d="M10,23v4c0,1.657,2.686,3,6,3 s6-1.343,6-3v-4"
@@ -274,7 +274,7 @@ function IbBalanceIcon(props) {
         <ellipse
           data-color="color-2"
           fill="none"
-          stroke="#06D3D7"
+          stroke=" #8DBAEA"
           strokeWidth="2"
           strokeLinecap="square"
           strokeMiterlimit="10"

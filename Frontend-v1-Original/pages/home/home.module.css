@@ -58,7 +58,7 @@
   font-family: 'Monument' !important;
   font-size: 18px !important;
   text-transform: uppercase;
-  color: #06D3D7 !important;
+  color:  #8DBAEA !important;
   margin-bottom: 20px !important;
   font-weight: 100 !important;
   letter-spacing: 3px;
@@ -139,12 +139,12 @@
 
 .buttonEnter,
 .buttonEnterSingle {
-  background: rgba(6,211,215,0.1) !important;
+  background: rgba(141,186,250,0.1) !important;
   font-family: 'Monument' !important;
   padding: 12px 20px 10px 20px !important;
   min-width: 100% !important;
   text-transform: capitalize !important;
-  color: #06D3D7 !important;
+  color:  #8DBAEA !important;
 }
 
 .floatingSphere {

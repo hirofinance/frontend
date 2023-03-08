@@ -6,7 +6,7 @@
   border-radius: 12px;
   border: 0 !important;
   padding: 10px;
-  box-shadow: 0 0 0.2em rgba(14, 233, 222, 0.993);
+  box-shadow: 0 0 0.2em rgba(163,201,255, 0.993);
   
 }
 
@@ -210,7 +210,7 @@ a.linkz {
 
 .sectionText {
   color: rgba(104, 108, 128, 0.8);
-  /* color: #234ce7; */
+  /* color: #80ade6; */
   font-size: 13px !important;
   cursor: default;
   margin: 0 0 0 11px !important;
@@ -315,7 +315,7 @@ a.linkz {
 } /* Transparent border to eliminate position jittering from Active state */
 
 .testChange {
-  box-shadow: 0 0 0.2em rgba(30, 131, 126, 0.993);
+  box-shadow: 0 0 0.2em rgba(128,173,246, 0.993);
   background-color: rgba(0, 0, 0, 0) !important;
   color: #fff !important;
 
@@ -424,7 +424,7 @@ a.linkz {
 
   .sectionText {
     color: rgba(104, 108, 128, 0.8);
-    /* color: #234ce7; */
+    /* color: #80ade6; */
     font-size: 13px !important;
     cursor: default;
     margin: 10px 0 10px 0px !important;
@@ -500,7 +500,7 @@ a.linkz {
   }
 
   .testChange {
-    border: 1px solid #06d3d7 !important;
+    border: 1px solid #8dbaea !important;
     background-color: rgba(0, 0, 0, 0) !important;
     color: #fff !important;
   }
