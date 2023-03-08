@@ -77,7 +77,7 @@ function Home({ changeTheme }) {
           </Grid>
           <Grid item lg={12} md={12} sm={12} xs={12}>
             <Typography variant="body1" className={classes.mainDescription}>
-              Expand Exchange officially launched in January 2023 with a
+              Expand Exchange officially launched in March 2023 with a
               collective goal of fair and balanced access to DeFi. Expand
               Exchange is a decentralized exchange that has launched on the
               Arbitrum network with low fees, near 0 slippage on correlated
