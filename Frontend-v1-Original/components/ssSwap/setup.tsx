@@ -96,6 +96,7 @@ function Setup() {
 
       const ssUpdated = () => {
         const swapAssets = stores.stableSwapStore.getStore("swapAssets");
+        console.log("[setup.tsx] ssUpdated - swapAssets", swapAssets)
 
         setToAssetOptions(swapAssets);
         setFromAssetOptions(swapAssets);

@@ -893,8 +893,11 @@ class Store {
       let localBaseAssets = [];
       const localBaseAssetsString = localStorage.getItem("stableSwap-assets");
 
+      console.log("[getLocalAssets] localBaseAssetsString ", localBaseAssetsString)
+
       if (localBaseAssetsString && localBaseAssetsString !== "") {
         localBaseAssets = JSON.parse(localBaseAssetsString);
+        console.log("[getLocalAssets] localBaseAssets ", localBaseAssets)
       }
 
       return localBaseAssets;
@@ -907,6 +910,8 @@ class Store {
   getBaseAsset = async (address, save?, getBalance?) => {
     try {
       const baseAssets = this.getStore("baseAssets");
+
+      console.log("[getBaseAsset] baseAssets ", baseAssets)
 
       const theBaseAsset = baseAssets.filter((as) => {
         return as.address.toLowerCase() === address.toLowerCase();
@@ -926,6 +931,8 @@ class Store {
         CONTRACTS.ERC20_ABI as AbiItem[],
         address
       );
+
+      console.log("[getBaseAsset] address ", address)
 
       const [symbol, decimals, name] = await Promise.all([
         baseAssetContract.methods.symbol().call(),
@@ -1108,6 +1115,11 @@ class Store {
     const baseAssetsWeSwap = baseAssets.filter((asset) =>
       set.has(asset.address.toLowerCase())
     );
+
+    console.log("[updateSwapAssets] pairs" ,pairs )
+    console.log("[updateSwapAssets] set", set)
+    console.log("[updateSwapAssets] baseAssetsWeSwap ", baseAssetsWeSwap  )
+
     this.setStore({ swapAssets: baseAssetsWeSwap });
     this.emitter.emit(ACTIONS.SWAP_ASSETS_UPDATED, baseAssetsWeSwap);
   };
