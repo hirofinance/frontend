@@ -96,19 +96,41 @@ function Setup() {
 
       const ssUpdated = () => {
         const swapAssets = stores.stableSwapStore.getStore("swapAssets");
-        console.log("[setup.tsx] ssUpdated - swapAssets", swapAssets)
-        console.log("[setup.tsx] ssUpdated - fromAssetValue", fromAssetValue)
-        console.log("[setup.tsx] ssUpdated - toAssetValue", toAssetValue)
+        console.log("[setup.tsx] ssUpdated - swapAssets", swapAssets);
+        console.log("[setup.tsx] ssUpdated - fromAssetValue", fromAssetValue);
+        console.log("[setup.tsx] ssUpdated - toAssetValue", toAssetValue);
 
         setToAssetOptions(swapAssets);
         setFromAssetOptions(swapAssets);
 
         if (swapAssets.length > 0 && toAssetValue == null) {
-          setToAssetValue(swapAssets[0]);
+          const tusd = swapAssets.find((asset) => {
+            return (
+              asset.address === "0x4D15a3A2286D883AF0AA1B3f21367843FAc63E07"
+            );
+          });
+
+          if (tusd) {
+            setToAssetValue(tusd);
+          } else {
+            setToAssetValue(swapAssets[0]);
+          }
+          // setToAssetValue(swapAssets[0]);
         }
 
         if (swapAssets.length > 0 && fromAssetValue == null) {
-          setFromAssetValue(swapAssets[1]);
+          const usdt = swapAssets.find((asset) => {
+            return (
+              asset.address === "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+            );
+          });
+
+          if (usdt) {
+            setFromAssetValue(usdt);
+          } else {
+            setFromAssetValue(swapAssets[1]);
+          }
+          // setFromAssetValue(swapAssets[1]);
         }
 
         forceUpdate();
@@ -127,7 +149,7 @@ function Setup() {
         setToAmountValue("");
         calculateReceiveAmount(0, fromAssetValue, toAssetValue);
         setQuote(null);
-        setQuoteLoading(false); 
+        setQuoteLoading(false);
       };
 
       stores.emitter.on(ACTIONS.ERROR, errorReturned);
