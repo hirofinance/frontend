@@ -18,7 +18,7 @@
   {
     "chainId": 42161,
     "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-    "name": "USDC",
+    "name": "USD Coin",
     "symbol": "USDC",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/usdc.jpg"
@@ -27,7 +27,7 @@
     "address": "0x2eE985d52677BD026a3f3fBD828cE96587de0A80",
     "chainId": 42161,
     "decimals": 18,
-    "name": "EXPD",
+    "name": "Expand Finance",
     "symbol": "EXPD",
     "logoURI": "https://raw.githubusercontent.com/hirofinance/tokens/b52fc1d5e49bb5868531a16b8401246f4754d564/logo-icon.png"
   },
