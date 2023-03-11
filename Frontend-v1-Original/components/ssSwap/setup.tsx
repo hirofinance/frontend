@@ -97,6 +97,8 @@ function Setup() {
       const ssUpdated = () => {
         const swapAssets = stores.stableSwapStore.getStore("swapAssets");
         console.log("[setup.tsx] ssUpdated - swapAssets", swapAssets)
+        console.log("[setup.tsx] ssUpdated - fromAssetValue", fromAssetValue)
+        console.log("[setup.tsx] ssUpdated - toAssetValue", toAssetValue)
 
         setToAssetOptions(swapAssets);
         setFromAssetOptions(swapAssets);
@@ -125,7 +127,7 @@ function Setup() {
         setToAmountValue("");
         calculateReceiveAmount(0, fromAssetValue, toAssetValue);
         setQuote(null);
-        setQuoteLoading(false);
+        setQuoteLoading(false); 
       };
 
       stores.emitter.on(ACTIONS.ERROR, errorReturned);
