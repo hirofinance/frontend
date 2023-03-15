@@ -38,5 +38,30 @@
     "name": "TrueUSD",
     "symbol": "TUSD",
     "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/tusd.jpg"
+  },
+  {
+    "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+    "chainId": 42161,
+    "decimals": 18,
+    "name": "MAGIC",
+    "symbol": "MAGIC",
+    "logoURI": "https://assets.coingecko.com/coins/images/18623/large/magic.png"
+  },
+  {
+    "address": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
+    "chainId": 42161,
+    "decimals": 18,
+    "name": "LDO",
+    "symbol": "LDO",
+    "logoURI": "https://assets.coingecko.com/coins/images/13573/large/Lido_DAO.png"
+  },
+  {
+    "address": "0x27D8De4c30ffDE34e982482AE504fC7F23061f61",
+    "chainId": 42161,
+    "decimals": 18,
+    "name": "MMT",
+    "symbol": "MMT",
+    "logoURI": "https://assets.coingecko.com/coins/images/29161/large/MMT_logo_Vert.png"
   }
+
 ]

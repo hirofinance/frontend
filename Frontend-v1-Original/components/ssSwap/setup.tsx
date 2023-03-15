@@ -104,14 +104,14 @@ function Setup() {
         setFromAssetOptions(swapAssets);
 
         if (swapAssets.length > 0 && toAssetValue == null) {
-          const tusd = swapAssets.find((asset) => {
+          const usdc = swapAssets.find((asset) => {
             return (
-              asset.address === "0x4D15a3A2286D883AF0AA1B3f21367843FAc63E07"
+              asset.address === "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
             );
           });
 
-          if (tusd) {
-            setToAssetValue(tusd);
+          if (usdc) {
+            setToAssetValue(usdc);
           } else {
             setToAssetValue(swapAssets[0]);
           }
@@ -119,14 +119,14 @@ function Setup() {
         }
 
         if (swapAssets.length > 0 && fromAssetValue == null) {
-          const usdt = swapAssets.find((asset) => {
+          const expd = swapAssets.find((asset) => {
             return (
-              asset.address === "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+              asset.address === "0x2eE985d52677BD026a3f3fBD828cE96587de0A80"
             );
           });
 
-          if (usdt) {
-            setFromAssetValue(usdt);
+          if (expd) {
+            setFromAssetValue(expd);
           } else {
             setFromAssetValue(swapAssets[1]);
           }
